@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3039651ccbe95a249a8d0d642e65d727
+timeCreated: 1443612861
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/LightHouse/LightHouse_A.prefab
+  uploadId: 227274

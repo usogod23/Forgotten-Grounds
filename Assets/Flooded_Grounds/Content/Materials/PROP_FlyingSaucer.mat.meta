@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 46385e91996627c47a22d186d540d373
+timeCreated: 1444650526
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Content/Materials/PROP_FlyingSaucer.mat
+  uploadId: 227274

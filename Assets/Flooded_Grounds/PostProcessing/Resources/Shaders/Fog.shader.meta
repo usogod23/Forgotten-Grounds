@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2a72fc91cbae3cc4686a6143e8517993
+timeCreated: 1487335480
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/PostProcessing/Resources/Shaders/Fog.shader
+  uploadId: 227274

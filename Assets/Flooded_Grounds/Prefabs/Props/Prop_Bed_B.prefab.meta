@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 91365c327d21a0343b4fa73a722f938d
+timeCreated: 1443801019
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Props/Prop_Bed_B.prefab
+  uploadId: 227274

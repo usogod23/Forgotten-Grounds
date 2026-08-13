@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c99ab68b85e64f947b9e704d96a4b3b9
+timeCreated: 1439843369
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Content/Materials/PROP_ParkBench1.mat
+  uploadId: 227274

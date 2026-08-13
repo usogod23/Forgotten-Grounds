@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 47922826feb9d49488af116a75bc66c4
+timeCreated: 1430930068
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Content/Materials/BLD_BrickHouse1.mat
+  uploadId: 227274

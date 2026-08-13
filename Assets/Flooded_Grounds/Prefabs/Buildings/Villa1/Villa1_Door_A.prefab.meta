@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1c25ef6b060067847bed35e736f9aa4e
+timeCreated: 1443191410
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Door_A.prefab
+  uploadId: 227274

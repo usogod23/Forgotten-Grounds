@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0146707624aa9ec40a92615d304dd1f0
+timeCreated: 1444675774
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Content/Animations/FlyingSaucer_Body_Ctrl.controller
+  uploadId: 227274

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a43ff2cb77998f24c911c94091c664ba
+timeCreated: 1443892856
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Props/Prop_ParkBench_A.prefab
+  uploadId: 227274

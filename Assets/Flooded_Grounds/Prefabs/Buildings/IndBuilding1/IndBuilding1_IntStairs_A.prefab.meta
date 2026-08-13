@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8a201771cc9ff174098d36a9f9bca350
+timeCreated: 1429549360
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/IndBuilding1/IndBuilding1_IntStairs_A.prefab
+  uploadId: 227274

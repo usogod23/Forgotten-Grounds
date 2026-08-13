@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7610c55f0edab724fb21b5ca2833d7e3
+timeCreated: 1444052625
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/Structures1/Struct_Billboard_B.prefab
+  uploadId: 227274

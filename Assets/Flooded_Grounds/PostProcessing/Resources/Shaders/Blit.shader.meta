@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7d89469544dfa214eabdbf37fca76f40
+timeCreated: 1474297975
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/PostProcessing/Resources/Shaders/Blit.shader
+  uploadId: 227274

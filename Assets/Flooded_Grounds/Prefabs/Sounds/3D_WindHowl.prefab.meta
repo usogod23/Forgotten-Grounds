@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 81d633455a8cc814e89ff68eb1deb8e7
+timeCreated: 1444509007
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Sounds/3D_WindHowl.prefab
+  uploadId: 227274

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 56e01684409c0f740b8acfe62e330a33
+timeCreated: 1447608194
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Resources/TreeCreator/TreeCreatorLeavesOptimized.shader
+  uploadId: 227274

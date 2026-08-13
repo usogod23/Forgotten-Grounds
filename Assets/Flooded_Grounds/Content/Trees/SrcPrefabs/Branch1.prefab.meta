@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a9656fb5b2112cb42b81a4b6bd080622
+timeCreated: 1447484132
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Content/Trees/SrcPrefabs/Branch1.prefab
+  uploadId: 227274

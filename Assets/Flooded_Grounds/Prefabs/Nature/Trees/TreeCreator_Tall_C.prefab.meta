@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1833ba93709e80944b9f2627881f3f4c
+timeCreated: 1447505352
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Tall_C.prefab
+  uploadId: 227274

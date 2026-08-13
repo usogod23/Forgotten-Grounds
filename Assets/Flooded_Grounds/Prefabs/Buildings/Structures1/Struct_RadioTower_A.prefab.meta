@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: adcec9e4c6de5ab48a16647625892f54
+timeCreated: 1443266535
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/Structures1/Struct_RadioTower_A.prefab
+  uploadId: 227274

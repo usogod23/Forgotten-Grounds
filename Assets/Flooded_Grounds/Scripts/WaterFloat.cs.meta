@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 6fb4aef6f4dbcb84f90b37cc0a4b581d
+timeCreated: 1517393316
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Scripts/WaterFloat.cs
+  uploadId: 227274

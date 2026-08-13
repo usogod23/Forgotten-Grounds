@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 26a62c2e30be83547bdfa9fe837165e3
+timeCreated: 1460363486
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/PostProcessing/Resources/Shaders/ColorGrading.cginc
+  uploadId: 227274

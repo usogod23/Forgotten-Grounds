@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eaaa713946d21c349acbc0f8b739f316
+timeCreated: 1443628865
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_Deco_WindowGlass_B.prefab
+  uploadId: 227274

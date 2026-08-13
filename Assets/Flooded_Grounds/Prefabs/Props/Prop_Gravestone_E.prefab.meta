@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 73a46d03e13dd2b4ebddaeb829191c7d
+timeCreated: 1434460590
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Props/Prop_Gravestone_E.prefab
+  uploadId: 227274

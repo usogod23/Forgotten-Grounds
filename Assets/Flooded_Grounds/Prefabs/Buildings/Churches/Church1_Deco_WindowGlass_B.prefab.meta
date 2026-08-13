@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8bdc869548e29fd4fbdf4c6b361ce4ce
+timeCreated: 1443796580
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/Churches/Church1_Deco_WindowGlass_B.prefab
+  uploadId: 227274

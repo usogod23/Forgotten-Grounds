@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6dc78eb22702ea84296ffaf6e8826c15
+timeCreated: 1443799611
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Props/Prop_Cabinet_B.prefab
+  uploadId: 227274

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: babcc1aaacfd18a43aa346a87c9002f0
+timeCreated: 1427561782
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Backgrounds/BGR_Pipe_A.prefab
+  uploadId: 227274

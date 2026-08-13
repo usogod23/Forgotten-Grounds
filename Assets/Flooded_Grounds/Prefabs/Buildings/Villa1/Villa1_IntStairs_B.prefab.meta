@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f1f3a6b5d79f5d74c9c6fa29dc791dbb
+timeCreated: 1442573565
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_IntStairs_B.prefab
+  uploadId: 227274

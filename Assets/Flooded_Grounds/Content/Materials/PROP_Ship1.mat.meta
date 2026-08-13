@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e2d702a05fd4a344bb9138058c882de9
+timeCreated: 1436387445
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Content/Materials/PROP_Ship1.mat
+  uploadId: 227274

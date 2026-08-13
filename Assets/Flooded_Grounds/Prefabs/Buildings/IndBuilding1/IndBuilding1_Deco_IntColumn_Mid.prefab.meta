@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dc203fb0cc8d7e34c8a64e7cba631d02
+timeCreated: 1442682855
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/IndBuilding1/IndBuilding1_Deco_IntColumn_Mid.prefab
+  uploadId: 227274

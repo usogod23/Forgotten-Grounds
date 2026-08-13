@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c83956915580e42489479d2a109470ab
+timeCreated: 1470404606
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/PostProcessing/Resources/Shaders/MotionBlur.cginc
+  uploadId: 227274

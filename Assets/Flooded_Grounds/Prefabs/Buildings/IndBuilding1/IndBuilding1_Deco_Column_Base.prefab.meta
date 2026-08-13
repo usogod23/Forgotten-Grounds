@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 31a01b4eec39eee4a8f9af7cd90c52da
+timeCreated: 1429548221
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/IndBuilding1/IndBuilding1_Deco_Column_Base.prefab
+  uploadId: 227274

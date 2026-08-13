@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6bdc6aa17790f464bbae0911783dbf7c
+timeCreated: 1445694443
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Sounds/2D_Background.prefab
+  uploadId: 227274

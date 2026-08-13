@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d248d4d1588851f43a9fa18a4e6f0209
+timeCreated: 1460361871
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/PostProcessing/Resources/Shaders/LutGen.shader
+  uploadId: 227274

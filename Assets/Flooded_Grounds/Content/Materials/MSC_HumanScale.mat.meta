@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d43da3634ccda7e4dbfd7e94e3071c6f
+timeCreated: 1427227204
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Content/Materials/MSC_HumanScale.mat
+  uploadId: 227274

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 944463113244f4bf8b05c1757cd838a4
+timeCreated: 1487340121
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/PostProcessing/Utilities/CustomMotionTexture/Materials/UVChecker.mat
+  uploadId: 227274

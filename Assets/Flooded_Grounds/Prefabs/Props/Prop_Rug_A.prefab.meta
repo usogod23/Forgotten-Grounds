@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 210d38b43ba064d418e74fe6c3791d87
+timeCreated: 1442513587
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Props/Prop_Rug_A.prefab
+  uploadId: 227274

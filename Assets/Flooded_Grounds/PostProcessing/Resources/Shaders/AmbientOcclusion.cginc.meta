@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 447591ee3d9d4204899be5fe25968ea0
+timeCreated: 1473323470
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/PostProcessing/Resources/Shaders/AmbientOcclusion.cginc
+  uploadId: 227274

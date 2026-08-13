@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d18477f28fb30864d83758989554e271
+timeCreated: 1432840590
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/GreenHouse/GreenHouse1_End_A.prefab
+  uploadId: 227274

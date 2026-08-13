@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 1ec920c63e1d8ad4198465d60ada67b5
+timeCreated: 1514928335
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Scripts/FPSController/CharController_Motor.cs
+  uploadId: 227274

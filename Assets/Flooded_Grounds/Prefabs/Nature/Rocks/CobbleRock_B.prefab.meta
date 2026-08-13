@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 149f31fa3c070bf44a66da3a784cdc43
+timeCreated: 1444049520
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Nature/Rocks/CobbleRock_B.prefab
+  uploadId: 227274

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 01643aaa7b23a2a45a76b3dc86715fab
+timeCreated: 1447502286
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Small_B.prefab
+  uploadId: 227274

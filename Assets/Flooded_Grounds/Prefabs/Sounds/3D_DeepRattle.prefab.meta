@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f4da384b50a3b8f42b5b5315740afb00
+timeCreated: 1444508688
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Sounds/3D_DeepRattle.prefab
+  uploadId: 227274

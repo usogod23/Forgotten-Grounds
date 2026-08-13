@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a11e981b37ff86749a7a41b2999e3199
+timeCreated: 1443799681
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Props/Prop_LargeTable_A.prefab
+  uploadId: 227274

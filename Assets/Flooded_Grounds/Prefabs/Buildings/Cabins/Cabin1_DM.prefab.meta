@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 89f79f1bf5f167d4298cf43d900f56c1
+timeCreated: 1440614636
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/Cabins/Cabin1_DM.prefab
+  uploadId: 227274

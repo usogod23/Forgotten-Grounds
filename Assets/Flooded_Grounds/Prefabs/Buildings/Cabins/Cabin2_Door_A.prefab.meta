@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ea087b00cc97e5e44bdedeeccb899e05
+timeCreated: 1443182078
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/Cabins/Cabin2_Door_A.prefab
+  uploadId: 227274

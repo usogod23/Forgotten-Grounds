@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5f8119929abe75e4e8f9da64a6263f12
+timeCreated: 1429542426
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/IndBuilding1/IndBuilding1_Base_Mid_A.prefab
+  uploadId: 227274

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 35a756c42404b894ea8cc2e61487fabb
+timeCreated: 1443276216
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Base_Stairs_A.prefab
+  uploadId: 227274

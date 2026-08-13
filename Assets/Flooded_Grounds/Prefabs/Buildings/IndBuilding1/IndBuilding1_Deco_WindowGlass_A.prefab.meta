@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b3c3cc4c79dabea40bbd7b0767d13f5d
+timeCreated: 1443797893
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/IndBuilding1/IndBuilding1_Deco_WindowGlass_A.prefab
+  uploadId: 227274

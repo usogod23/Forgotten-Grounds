@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0894e59934291c64d9041c5d75db1750
+timeCreated: 1443189956
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/Churches/Church1_Door_A.prefab
+  uploadId: 227274

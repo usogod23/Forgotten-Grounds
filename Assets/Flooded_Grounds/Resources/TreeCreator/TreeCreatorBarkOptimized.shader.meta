@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: db6aa165e16df4c468e10d58b72a89b0
+timeCreated: 1447484373
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Resources/TreeCreator/TreeCreatorBarkOptimized.shader
+  uploadId: 227274

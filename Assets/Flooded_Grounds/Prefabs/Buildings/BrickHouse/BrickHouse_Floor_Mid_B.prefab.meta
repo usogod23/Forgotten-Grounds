@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3f9bb54b0ba0f5a4b8aa264f45880ffc
+timeCreated: 1441548143
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_Floor_Mid_B.prefab
+  uploadId: 227274

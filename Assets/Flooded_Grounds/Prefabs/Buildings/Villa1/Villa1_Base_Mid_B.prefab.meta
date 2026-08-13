@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 113eb02b1f4058248bf628b2fde16564
+timeCreated: 1429999353
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Base_Mid_B.prefab
+  uploadId: 227274

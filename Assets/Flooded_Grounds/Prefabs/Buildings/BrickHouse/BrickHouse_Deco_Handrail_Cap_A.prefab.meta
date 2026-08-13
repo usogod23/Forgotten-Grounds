@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 57aced364abddec4c936cf4c8f9bf1c8
+timeCreated: 1445081634
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_Deco_Handrail_Cap_A.prefab
+  uploadId: 227274

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 84e1fb248c9ee584a85470162c251253
+timeCreated: 1514928341
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Scripts/FPSController/FpsController.prefab
+  uploadId: 227274

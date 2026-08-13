@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 198a7384312e9d7418c7d2b63e402e12
+timeCreated: 1441836691
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Atmospherics/ATM_InteriorDust.prefab
+  uploadId: 227274

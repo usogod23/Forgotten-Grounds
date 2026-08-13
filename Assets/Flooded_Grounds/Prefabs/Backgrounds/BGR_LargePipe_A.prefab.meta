@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a3afb07f3df9b5e4a8c5d28803a625eb
+timeCreated: 1427561080
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Backgrounds/BGR_LargePipe_A.prefab
+  uploadId: 227274

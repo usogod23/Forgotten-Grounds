@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b3b7096fbf59bdd479179c99cd86d823
+timeCreated: 1443559610
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Props/Prop_Car1_DM.prefab
+  uploadId: 227274

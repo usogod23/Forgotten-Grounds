@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: eb88496804341c648b32a75843d92ccb
+timeCreated: 1465205118
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/PostProcessing/Resources/Shaders/Common.cginc
+  uploadId: 227274

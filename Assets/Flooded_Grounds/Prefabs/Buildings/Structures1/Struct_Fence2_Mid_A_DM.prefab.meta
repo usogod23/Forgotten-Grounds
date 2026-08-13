@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c1f58f0ed2ff6124d8a34bc65d503041
+timeCreated: 1444224014
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/Structures1/Struct_Fence2_Mid_A_DM.prefab
+  uploadId: 227274

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0a5e5d99899513c4eb2d420489f08ccd
+timeCreated: 1443555914
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Content/Materials/BLD_Structures2_LOD.mat
+  uploadId: 227274

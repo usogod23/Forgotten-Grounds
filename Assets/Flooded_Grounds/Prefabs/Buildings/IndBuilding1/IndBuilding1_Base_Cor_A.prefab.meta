@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0a81ac6994fc89e46890e21d8e33ab34
+timeCreated: 1429542702
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/IndBuilding1/IndBuilding1_Base_Cor_A.prefab
+  uploadId: 227274

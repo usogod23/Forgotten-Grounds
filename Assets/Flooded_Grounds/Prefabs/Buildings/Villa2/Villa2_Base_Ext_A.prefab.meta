@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 58212b31b018cdb4d8b7ef95d6a1c5c9
+timeCreated: 1429899441
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Base_Ext_A.prefab
+  uploadId: 227274

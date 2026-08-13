@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 883e84064e0818d46b851b53952056f7
+timeCreated: 1432654802
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Small_D.prefab
+  uploadId: 227274

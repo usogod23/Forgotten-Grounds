@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 8f31cf52f05e80c4ea48570d0c3c8f59
+timeCreated: 1461744717
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/PostProcessing/Editor/Utils/FxStyles.cs
+  uploadId: 227274

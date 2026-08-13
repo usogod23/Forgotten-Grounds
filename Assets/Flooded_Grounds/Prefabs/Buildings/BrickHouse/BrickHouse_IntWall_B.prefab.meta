@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b6995a63df49222409e4c1ba3567bb78
+timeCreated: 1441557931
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_IntWall_B.prefab
+  uploadId: 227274

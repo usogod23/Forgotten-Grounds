@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3f7bd70355e6e0646aad871c1e7859b5
+timeCreated: 1442418181
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Wall_Int_B.prefab
+  uploadId: 227274

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d2f406cad28afda489b94594fb3ce0af
+timeCreated: 1465898178
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/PostProcessing/Resources/Shaders/EyeAdaptation.cginc
+  uploadId: 227274

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b8d56fc3449f426408c23c723b58d7b5
+timeCreated: 1460363486
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/PostProcessing/Resources/Shaders/ACES.cginc
+  uploadId: 227274

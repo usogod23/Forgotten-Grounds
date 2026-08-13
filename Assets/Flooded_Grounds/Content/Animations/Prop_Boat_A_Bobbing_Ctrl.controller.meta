@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4787a8630f4502f4d83e467e907b2359
+timeCreated: 1443201184
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Content/Animations/Prop_Boat_A_Bobbing_Ctrl.controller
+  uploadId: 227274

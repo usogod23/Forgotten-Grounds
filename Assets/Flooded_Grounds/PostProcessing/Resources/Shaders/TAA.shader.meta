@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ec6c5af987867f54aa08fba81ee279bd
+timeCreated: 1472807140
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/PostProcessing/Resources/Shaders/TAA.shader
+  uploadId: 227274

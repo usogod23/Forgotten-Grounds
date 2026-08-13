@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cc89d4ad779dae14eacc18ea2aef32b1
+timeCreated: 1442513088
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Props/Prop_Painting_B.prefab
+  uploadId: 227274

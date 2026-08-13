@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e7336c2c46c86f54b9ad60ce08b10dec
+timeCreated: 1427227044
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Content/Materials/HLP_Grid.mat
+  uploadId: 227274

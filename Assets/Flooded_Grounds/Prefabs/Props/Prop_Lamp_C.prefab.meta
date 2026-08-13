@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5f0de5ff8858bdd408bd91760c8c70da
+timeCreated: 1443887357
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Props/Prop_Lamp_C.prefab
+  uploadId: 227274

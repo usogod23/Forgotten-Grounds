@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fe816015a58e629439b27ecca9cdb110
+timeCreated: 1443887367
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Props/Prop_ChurchBench_A_DM.prefab
+  uploadId: 227274

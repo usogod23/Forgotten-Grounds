@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1de21d4e18752374889f59a6e0ced71a
+timeCreated: 1429631677
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/GuardHouse/GuardHouse_A.prefab
+  uploadId: 227274

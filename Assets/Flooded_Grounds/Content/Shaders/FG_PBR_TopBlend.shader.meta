@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1a302063efeed7d49a2f2100a375a14f
+timeCreated: 1427665078
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Content/Shaders/FG_PBR_TopBlend.shader
+  uploadId: 227274

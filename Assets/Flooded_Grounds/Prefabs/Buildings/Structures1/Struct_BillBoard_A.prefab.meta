@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 96d3d3f155ce5f945b77b4bfd101f7c3
+timeCreated: 1444053465
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/Structures1/Struct_BillBoard_A.prefab
+  uploadId: 227274

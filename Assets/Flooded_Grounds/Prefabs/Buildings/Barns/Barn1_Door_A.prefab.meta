@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e13d1dd634af0b14eb644117aa5bfdf8
+timeCreated: 1442829675
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn1_Door_A.prefab
+  uploadId: 227274

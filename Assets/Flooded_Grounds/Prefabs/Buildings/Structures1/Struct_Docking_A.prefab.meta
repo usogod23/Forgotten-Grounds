@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d252560780ba70742afb43ce80fdc2c4
+timeCreated: 1443554747
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/Structures1/Struct_Docking_A.prefab
+  uploadId: 227274

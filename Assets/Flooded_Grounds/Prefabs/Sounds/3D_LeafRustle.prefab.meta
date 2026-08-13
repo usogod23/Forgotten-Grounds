@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 506eda1dc7aad5742b90e680c7fb5ed3
+timeCreated: 1444510079
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Sounds/3D_LeafRustle.prefab
+  uploadId: 227274

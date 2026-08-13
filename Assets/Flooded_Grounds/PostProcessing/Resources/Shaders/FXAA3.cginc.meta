@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 613b4036a9f55c34fb054bde02455e46
+timeCreated: 1462350552
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/PostProcessing/Resources/Shaders/FXAA3.cginc
+  uploadId: 227274

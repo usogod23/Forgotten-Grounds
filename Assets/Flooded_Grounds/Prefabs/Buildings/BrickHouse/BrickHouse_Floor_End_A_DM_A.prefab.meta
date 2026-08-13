@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e2e47abf26e89c2468ffd16360aa882a
+timeCreated: 1443877395
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_Floor_End_A_DM_A.prefab
+  uploadId: 227274

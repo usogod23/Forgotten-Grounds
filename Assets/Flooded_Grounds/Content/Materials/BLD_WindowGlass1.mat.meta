@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2b1f4e3c22d03d742a6e1e2e95a7e606
+timeCreated: 1443292156
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Content/Materials/BLD_WindowGlass1.mat
+  uploadId: 227274

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ab1d7b194de648340a71ccc21062a218
+timeCreated: 1432149602
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Atmospherics/ATM_Leaves_B.prefab
+  uploadId: 227274

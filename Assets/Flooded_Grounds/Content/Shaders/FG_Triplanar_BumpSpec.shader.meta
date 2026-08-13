@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8e721f9dd7d2ebe4288001f7b478e7e2
+timeCreated: 1434217304
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Content/Shaders/FG_Triplanar_BumpSpec.shader
+  uploadId: 227274

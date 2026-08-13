@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5c7ab60be45c27348a11ef4a24df7c72
+timeCreated: 1444511357
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Sounds/3D_Taps.prefab
+  uploadId: 227274

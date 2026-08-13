@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 67839f18cb008324fad823e901f01b33
+timeCreated: 1431115961
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Content/Materials/BLD_Church1.mat
+  uploadId: 227274

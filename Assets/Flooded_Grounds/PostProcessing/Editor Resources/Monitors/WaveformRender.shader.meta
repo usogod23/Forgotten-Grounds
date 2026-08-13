@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8b3e43c50424ab2428a9c172843bc66d
+timeCreated: 1459956391
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/PostProcessing/Editor Resources/Monitors/WaveformRender.shader
+  uploadId: 227274

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a483cf8080b9f084a9f64535f5b7c6ab
+timeCreated: 1444052033
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/Structures1/Struct_Kiosk_A.prefab
+  uploadId: 227274

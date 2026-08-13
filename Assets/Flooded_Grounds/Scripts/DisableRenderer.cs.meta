@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 78b5e677f5c60e548a68ce75b82380be
+timeCreated: 1517393205
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Scripts/DisableRenderer.cs
+  uploadId: 227274

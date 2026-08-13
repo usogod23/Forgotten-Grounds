@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8cfafaa03df8a814bbaeecb52ab759cb
+timeCreated: 1433620423
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/Structures1/Struct_Fence1_Column_A_DM.prefab
+  uploadId: 227274

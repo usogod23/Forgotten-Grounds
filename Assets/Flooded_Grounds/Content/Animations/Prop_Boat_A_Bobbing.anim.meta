@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 19ad7872f173c494a9d04d95a5b62b19
+timeCreated: 1443201177
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Content/Animations/Prop_Boat_A_Bobbing.anim
+  uploadId: 227274

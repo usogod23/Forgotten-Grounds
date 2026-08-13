@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8a98dd32bb1a39c4eb50296503009ea2
+timeCreated: 1443613701
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Props/Prop_Ship_A.prefab
+  uploadId: 227274

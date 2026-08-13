@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1ace8c7ed9e38a342a68c011ae0945e4
+timeCreated: 1443203178
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Content/Materials/PROP_Boat1_LOD.mat
+  uploadId: 227274

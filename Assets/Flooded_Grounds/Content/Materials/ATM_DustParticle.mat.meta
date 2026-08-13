@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 43af489cd38ff014e8e9a7a8cea78a7e
+timeCreated: 1441836900
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Content/Materials/ATM_DustParticle.mat
+  uploadId: 227274

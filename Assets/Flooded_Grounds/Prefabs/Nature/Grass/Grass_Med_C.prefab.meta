@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: de006beaac36de64d9a2c3569ad1be67
+timeCreated: 1432654767
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Med_C.prefab
+  uploadId: 227274

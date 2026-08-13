@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 42f9613ec0908c044b86298687d21ba2
+timeCreated: 1429464897
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/Cabins/Outhouse_A.prefab
+  uploadId: 227274

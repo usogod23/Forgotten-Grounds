@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 49b7895d0e133d24ca6c78d4ea46be33
+timeCreated: 1442605712
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48529
+  packageName: Flooded Grounds
+  packageVersion: 1.1
+  assetPath: Assets/Flooded_Grounds/Prefabs/Buildings/IndBuilding1/IndBuilding1_Wall_Int_B.prefab
+  uploadId: 227274
