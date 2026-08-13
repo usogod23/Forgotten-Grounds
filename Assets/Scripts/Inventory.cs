@@ -22,6 +22,16 @@ public class Inventory : MonoBehaviour
             Debug.Log(s);
             popupController.Show(s);
         }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            UseBattery();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            UsePill();
+        }
     }
 
     public void AddBattery()
@@ -29,8 +39,28 @@ public class Inventory : MonoBehaviour
         batteries += 1;
     }
 
+    public int GetBattery()
+    {
+        return batteries;
+    }
+
+    public void UseBattery()
+    {
+        if (batteries > 0) batteries -= 1;
+    }
+
     public void AddPill()
     {
         pills += 1;
+    }
+
+    public int GetPill()
+    {
+        return pills;
+    }
+
+    public void UsePill()
+    {
+        if (pills > 0) pills -= 1;
     }
 }
