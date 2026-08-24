@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ac69f93ef231bf94caec8d4df3b3ce29
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 286644
+  packageName: Lux Instant Vegetation
+  packageVersion: 0.94
+  assetPath: Assets/Forst/Lux Instant Vegetation/Core/Shaders/Includes/LODDithering.hlsl
+  uploadId: 720086

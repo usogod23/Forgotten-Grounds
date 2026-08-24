@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d09a090e109aa644c82eaa2c2ea62f43
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 286644
+  packageName: Lux Instant Vegetation
+  packageVersion: 0.94
+  assetPath: Assets/Forst/Lux Instant Vegetation/Core/Shaders/Includes/URP Lighting.hlsl
+  uploadId: 720086

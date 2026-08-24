@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 28b69a95e567ccf48af182af9356f999
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 286644
+  packageName: Lux Instant Vegetation
+  packageVersion: 0.94
+  assetPath: Assets/Forst/Lux Instant Vegetation/Core/Shaders/HDRP/Bark.shadergraph
+  uploadId: 720086
