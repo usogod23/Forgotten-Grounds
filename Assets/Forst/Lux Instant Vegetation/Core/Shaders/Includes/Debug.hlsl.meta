@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b5fa885a708220d4d8f02d62d6a292c2
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 286644
+  packageName: Lux Instant Vegetation
+  packageVersion: 0.94
+  assetPath: Assets/Forst/Lux Instant Vegetation/Core/Shaders/Includes/Debug.hlsl
+  uploadId: 720086

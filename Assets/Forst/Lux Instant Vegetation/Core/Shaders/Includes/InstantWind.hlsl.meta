@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8acb4b7fabe4e264f8b87094df06053a
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 286644
+  packageName: Lux Instant Vegetation
+  packageVersion: 0.94
+  assetPath: Assets/Forst/Lux Instant Vegetation/Core/Shaders/Includes/InstantWind.hlsl
+  uploadId: 720086

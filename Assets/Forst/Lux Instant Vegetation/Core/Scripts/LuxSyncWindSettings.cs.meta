@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4feaef2b1d7e3d54cb7ab07614c908c1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 286644
+  packageName: Lux Instant Vegetation
+  packageVersion: 0.94
+  assetPath: Assets/Forst/Lux Instant Vegetation/Core/Scripts/LuxSyncWindSettings.cs
+  uploadId: 720086
