@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dec8c2e05fee7ee488940010f9e0b0bc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 286644
+  packageName: Lux Instant Vegetation
+  packageVersion: 0.94
+  assetPath: Assets/Forst/Lux Instant Vegetation/Core/LuxInstantDiffusionProfile.asset
+  uploadId: 720086
