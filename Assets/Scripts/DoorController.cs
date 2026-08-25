@@ -9,6 +9,18 @@ public class DoorController : MonoBehaviour
     private bool isOpen = false;
     private bool playerIsNear = false;
 
+    private Quaternion closedRotation;
+    private Quaternion openRotation;
+
+    void Awake()
+    {
+        // Păstrăm orientarea din scenă, ca același controller să funcționeze
+        // pe uși amplasate în direcții diferite.
+        Quaternion initialRotation = transform.localRotation;
+        closedRotation = initialRotation * Quaternion.Euler(0f, closeAngle, 0f);
+        openRotation = initialRotation * Quaternion.Euler(0f, openAngle, 0f);
+    }
+
     void Update()
     {
         // Verificăm dacă jucătorul e lângă ușă și apasă tasta E
@@ -17,9 +29,8 @@ public class DoorController : MonoBehaviour
             isOpen = !isOpen; // Schimbă din deschis în închis și invers
         }
 
-        // Calculăm cum trebuie să stea ușa acum
-        float targetAngle = isOpen ? openAngle : closeAngle;
-        Quaternion targetRotation = Quaternion.Euler(0, targetAngle, 0);
+        // Calculăm cum trebuie să stea ușa acum, relativ la rotația ei inițială.
+        Quaternion targetRotation = isOpen ? openRotation : closedRotation;
 
         // Rotim ușa ușor către poziția dorită
         transform.localRotation = Quaternion.Slerp(transform.localRotation, targetRotation, Time.deltaTime * smoothSpeed);
