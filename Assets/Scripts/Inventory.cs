@@ -27,16 +27,6 @@ public class Inventory : MonoBehaviour
             Debug.Log(s);
             popupController.Show(s);
         }
-
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            UseBattery();
-        }
-
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            UsePill();
-        }
     }
 
     public void AddBattery()
