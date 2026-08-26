@@ -10,7 +10,7 @@ public class FlashlightController : MonoBehaviour
     {
         inventory = GetComponentInParent<Inventory>();
         battery = 100;
-        Flashlight.SetActive(!Flashlight.activeSelf);
+        Flashlight.SetActive(true);
     }
 
     // Update is called once per frame
@@ -34,6 +34,6 @@ public class FlashlightController : MonoBehaviour
         {
             battery = 100;
             inventory.UseBattery();
-        } 
+        }
     }
 }
