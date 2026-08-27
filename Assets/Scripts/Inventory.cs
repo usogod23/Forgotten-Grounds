@@ -49,6 +49,18 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    public void SetBatteries(int value)
+    {
+        batteries = Mathf.Max(0, value);
+        batteryText.text = batteries.ToString();
+    }
+
+    public void SetPills(int value)
+    {
+        pills = Mathf.Max(0, value);
+        pillText.text = pills.ToString();
+    }
+
     public void AddPill()
     {
         pills += 1;

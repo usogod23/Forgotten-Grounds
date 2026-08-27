@@ -7,11 +7,22 @@ public sealed class PlayerPositionSaveSystem : MonoBehaviour
     [Serializable]
     private sealed class PlayerPositionData
     {
-        public int version = 1;
+        public int version = 2;
         public Vector3 position;
+
+        // v2+
+        public float flashlightBattery = 100f;
+        public float sanity = 100f;
+        public int inventoryBatteries = 0;
+        public int inventoryPills = 0;
     }
 
     [SerializeField] private string saveFileName = "player-position.json";
+
+    [Header("Referinte pentru salvarea starii jocului (opționale)")]
+    [SerializeField] private FlashlightController flashlightController;
+    [SerializeField] private Sanity sanity;
+    [SerializeField] private Inventory inventory;
 
     public string SaveFilePath => Path.Combine(Application.persistentDataPath, saveFileName);
     public bool HasSave => File.Exists(SaveFilePath);
@@ -24,7 +35,11 @@ public sealed class PlayerPositionSaveSystem : MonoBehaviour
 
             var data = new PlayerPositionData
             {
-                position = transform.position
+                position = transform.position,
+                flashlightBattery = flashlightController != null ? flashlightController.battery : 100f,
+                sanity = sanity != null ? sanity.sanity : 100f,
+                inventoryBatteries = inventory != null ? inventory.GetBattery() : 0,
+                inventoryPills = inventory != null ? inventory.GetPill() : 0
             };
 
             File.WriteAllText(SaveFilePath, JsonUtility.ToJson(data, true));
@@ -54,7 +69,7 @@ public sealed class PlayerPositionSaveSystem : MonoBehaviour
             string json = File.ReadAllText(SaveFilePath);
             PlayerPositionData data = JsonUtility.FromJson<PlayerPositionData>(json);
 
-            if (data == null || data.version != 1 || !IsValid(data.position))
+            if (data == null || data.version < 1 || data.version > 2 || !IsValid(data.position))
             {
                 message = "The save file is invalid.";
                 Debug.LogError(message);
@@ -82,6 +97,23 @@ public sealed class PlayerPositionSaveSystem : MonoBehaviour
             }
 
             Physics.SyncTransforms();
+
+            if (flashlightController != null)
+            {
+                flashlightController.battery = data.flashlightBattery;
+            }
+
+            if (sanity != null)
+            {
+                sanity.sanity = data.sanity;
+            }
+
+            if (inventory != null)
+            {
+                inventory.SetBatteries(data.inventoryBatteries);
+                inventory.SetPills(data.inventoryPills);
+            }
+
             message = "Position loaded.";
             Debug.Log(message);
             return true;
