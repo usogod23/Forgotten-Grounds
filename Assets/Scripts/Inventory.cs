@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 
 public class Inventory : MonoBehaviour
 {
@@ -7,10 +8,14 @@ public class Inventory : MonoBehaviour
     private int batteries = 0;
     private int pills = 0;
 
+    public TMP_Text batteryText;
+    public TMP_Text pillText;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        batteryText.text = "0";
+        pillText.text = "0";
     }
 
     // Update is called once per frame
@@ -22,21 +27,12 @@ public class Inventory : MonoBehaviour
             Debug.Log(s);
             popupController.Show(s);
         }
-
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            UseBattery();
-        }
-
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            UsePill();
-        }
     }
 
     public void AddBattery()
     {
         batteries += 1;
+        batteryText.text = batteries.ToString();
     }
 
     public int GetBattery()
@@ -46,12 +42,17 @@ public class Inventory : MonoBehaviour
 
     public void UseBattery()
     {
-        if (batteries > 0) batteries -= 1;
+        if (batteries > 0)
+        {
+            batteries -= 1;
+            batteryText.text = batteries.ToString();
+        }
     }
 
     public void AddPill()
     {
         pills += 1;
+        pillText.text = pills.ToString();
     }
 
     public int GetPill()
@@ -61,6 +62,10 @@ public class Inventory : MonoBehaviour
 
     public void UsePill()
     {
-        if (pills > 0) pills -= 1;
+        if (pills > 0)
+        {
+            pills -= 1;
+            pillText.text = pills.ToString();
+        }
     }
 }
