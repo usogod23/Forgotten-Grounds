@@ -1,8 +1,9 @@
 using UnityEngine;
-
 public class InteractRaycaster : MonoBehaviour
 {
     public PopupController popupController;
+    public GameObject pickupText;
+    public GameObject doorText;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,9 +14,35 @@ public class InteractRaycaster : MonoBehaviour
     void Update()
     {
         RaycastHit hitInfo;
+
+        if (Physics.Raycast(transform.position, transform.forward, out hitInfo, 2f)) {
+            if (hitInfo.collider.CompareTag("Clue") || hitInfo.collider.CompareTag("Battery") || hitInfo.collider.CompareTag("Pill"))
+            {
+                pickupText.SetActive(true);
+            }
+            else
+            {
+                pickupText.SetActive(false);
+            }
+
+            if(hitInfo.collider.CompareTag("Door"))
+            {
+                doorText.SetActive(true);
+            }
+            else
+            {
+                doorText.SetActive(false);
+            }
+        }
+        else
+        {
+            pickupText.SetActive(false);
+            doorText.SetActive(false);
+        }
+
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (Physics.Raycast(transform.position, transform.forward, out hitInfo, 10f))
+            if (Physics.Raycast(transform.position, transform.forward, out hitInfo, 2f))
             {
                 if (hitInfo.collider.CompareTag("Clue"))
                 {

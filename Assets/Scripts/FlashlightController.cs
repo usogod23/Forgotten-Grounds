@@ -5,6 +5,7 @@ public class FlashlightController : MonoBehaviour
     public GameObject Flashlight;
     private Inventory inventory;
     public float battery;
+    public float batteryDecrease = 0.1f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,7 +19,7 @@ public class FlashlightController : MonoBehaviour
     {
         if (Flashlight.activeSelf)
         {
-            battery -= 0.01f;
+            battery -= batteryDecrease * Time.deltaTime;
             if (battery <= 0f)
             {
                 Flashlight.SetActive(false);

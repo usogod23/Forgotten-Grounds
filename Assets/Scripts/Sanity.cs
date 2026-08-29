@@ -16,7 +16,7 @@ public class Sanity : MonoBehaviour
     public float fov2 = 40;
     public float fov3 = 30;
 
-    public float sanityDecrease = 0.05f;
+    public float sanityDecrease = 0.5f;
     public float speed = 15;
     public float sanity;
 
@@ -34,7 +34,7 @@ public class Sanity : MonoBehaviour
     {
         if (!Flashlight.activeSelf && sanity > 0)
         {
-            sanity -= sanityDecrease;
+            sanity -= sanityDecrease * Time.deltaTime;
         }
 
         if (Input.GetKeyDown(KeyCode.Q) && inventory.GetPill() > 0)
