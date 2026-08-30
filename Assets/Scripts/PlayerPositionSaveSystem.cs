@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Collections.Generic;
 using UnityEngine;
 
 public sealed class PlayerPositionSaveSystem : MonoBehaviour
@@ -7,14 +8,15 @@ public sealed class PlayerPositionSaveSystem : MonoBehaviour
     [Serializable]
     private sealed class PlayerPositionData
     {
-        public int version = 2;
+        public int version = 3;
         public Vector3 position;
 
-        // v2+
         public float flashlightBattery = 100f;
         public float sanity = 100f;
         public int inventoryBatteries = 0;
         public int inventoryPills = 0;
+
+        public List<string> collectedClueNames = new List<string>();
     }
 
     [SerializeField] private string saveFileName = "player-position.json";
@@ -23,6 +25,7 @@ public sealed class PlayerPositionSaveSystem : MonoBehaviour
     [SerializeField] private FlashlightController flashlightController;
     [SerializeField] private Sanity sanity;
     [SerializeField] private Inventory inventory;
+    [SerializeField] private ClueManager clueManager;
 
     public string SaveFilePath => Path.Combine(Application.persistentDataPath, saveFileName);
     public bool HasSave => File.Exists(SaveFilePath);
@@ -39,7 +42,9 @@ public sealed class PlayerPositionSaveSystem : MonoBehaviour
                 flashlightBattery = flashlightController != null ? flashlightController.battery : 100f,
                 sanity = sanity != null ? sanity.sanity : 100f,
                 inventoryBatteries = inventory != null ? inventory.GetBattery() : 0,
-                inventoryPills = inventory != null ? inventory.GetPill() : 0
+                inventoryPills = inventory != null ? inventory.GetPill() : 0,
+
+                collectedClueNames = clueManager != null ? clueManager.GetCollectedClueNames() : new List<string>()
             };
 
             File.WriteAllText(SaveFilePath, JsonUtility.ToJson(data, true));
@@ -69,7 +74,7 @@ public sealed class PlayerPositionSaveSystem : MonoBehaviour
             string json = File.ReadAllText(SaveFilePath);
             PlayerPositionData data = JsonUtility.FromJson<PlayerPositionData>(json);
 
-            if (data == null || data.version < 1 || data.version > 2 || !IsValid(data.position))
+            if (data == null || data.version < 1 || data.version > 3 || !IsValid(data.position))
             {
                 message = "The save file is invalid.";
                 Debug.LogError(message);
@@ -112,6 +117,11 @@ public sealed class PlayerPositionSaveSystem : MonoBehaviour
             {
                 inventory.SetBatteries(data.inventoryBatteries);
                 inventory.SetPills(data.inventoryPills);
+            }
+
+            if (clueManager != null && data.collectedClueNames != null)
+            {
+                clueManager.RestoreLoadedClues(data.collectedClueNames);
             }
 
             message = "Position loaded.";

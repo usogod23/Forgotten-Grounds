@@ -46,14 +46,32 @@ public class InteractRaycaster : MonoBehaviour
             {
                 if (hitInfo.collider.CompareTag("Clue"))
                 {
-                    hitInfo.collider.gameObject.SetActive(false);
-                    ClueInfo clueInfo;
-                    clueInfo = hitInfo.collider.gameObject.GetComponent<ClueInfo>();
+                    //hitInfo.collider.gameObject.SetActive(false);
+                    //ClueInfo clueInfo;
+                    //clueInfo = hitInfo.collider.gameObject.GetComponent<ClueInfo>();
+                    //if (clueInfo != null)
+                    //{
+                    //    Debug.Log("We found Clue: " + clueInfo.ClueName);
+                    //    popupController.Show("We found Clue: " + clueInfo.ClueName);
+                    //}
+
+                    ClueInfo clueInfo = hitInfo.collider.gameObject.GetComponent<ClueInfo>();
+
                     if (clueInfo != null)
                     {
+                        ClueManager clueManager = this.gameObject.GetComponentInParent<ClueManager>();
+                        
+                        if (clueManager != null)
+                        {
+                            clueManager.AddClue(clueInfo);
+                        }
+
                         Debug.Log("We found Clue: " + clueInfo.ClueName);
                         popupController.Show("We found Clue: " + clueInfo.ClueName);
                     }
+
+                    hitInfo.collider.gameObject.SetActive(false);
+
                 } else if (hitInfo.collider.CompareTag("Battery"))
                 {
                     hitInfo.collider.gameObject.SetActive(false);
