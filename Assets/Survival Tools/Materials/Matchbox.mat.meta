@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: de101b0be6951b646833c2ab48fec359
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139872
+  packageName: Survival Game Tools
+  packageVersion: 1.1
+  assetPath: Assets/Survival Tools/Materials/Matchbox.mat
+  uploadId: 300906

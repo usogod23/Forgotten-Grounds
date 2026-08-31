@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ef9edaf98d7249a489f4b31144a8b1d0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139872
+  packageName: Survival Game Tools
+  packageVersion: 1.1
+  assetPath: Assets/Survival Tools/Materials/Walkieglass.mat
+  uploadId: 300906

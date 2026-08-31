@@ -4,6 +4,7 @@ public class InteractRaycaster : MonoBehaviour
     public PopupController popupController;
     public GameObject pickupText;
     public GameObject doorText;
+    public float rayLength = 4;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,7 +16,7 @@ public class InteractRaycaster : MonoBehaviour
     {
         RaycastHit hitInfo;
 
-        if (Physics.Raycast(transform.position, transform.forward, out hitInfo, 2f)) {
+        if (Physics.Raycast(transform.position, transform.forward, out hitInfo, rayLength)) {
             if (hitInfo.collider.CompareTag("Clue") || hitInfo.collider.CompareTag("Battery") || hitInfo.collider.CompareTag("Pill"))
             {
                 pickupText.SetActive(true);
@@ -42,18 +43,10 @@ public class InteractRaycaster : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (Physics.Raycast(transform.position, transform.forward, out hitInfo, 2f))
+            if (Physics.Raycast(transform.position, transform.forward, out hitInfo, rayLength))
             {
                 if (hitInfo.collider.CompareTag("Clue"))
                 {
-                    //hitInfo.collider.gameObject.SetActive(false);
-                    //ClueInfo clueInfo;
-                    //clueInfo = hitInfo.collider.gameObject.GetComponent<ClueInfo>();
-                    //if (clueInfo != null)
-                    //{
-                    //    Debug.Log("We found Clue: " + clueInfo.ClueName);
-                    //    popupController.Show("We found Clue: " + clueInfo.ClueName);
-                    //}
 
                     ClueInfo clueInfo = hitInfo.collider.gameObject.GetComponent<ClueInfo>();
 

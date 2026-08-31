@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: baa8d2066558c9a4ebcd1853c4c3ac4e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139872
+  packageName: Survival Game Tools
+  packageVersion: 1.1
+  assetPath: Assets/Survival Tools/Prefabs/cannedfood.prefab
+  uploadId: 300906

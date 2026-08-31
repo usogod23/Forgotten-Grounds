@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 38fb7ded0e1057f438e082c5f655bd53
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139872
+  packageName: Survival Game Tools
+  packageVersion: 1.1
+  assetPath: Assets/Survival Tools/Prefabs/matchbox.prefab
+  uploadId: 300906

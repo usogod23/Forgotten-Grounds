@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2b5cc980f6c665148ba60b8a10271f7d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139872
+  packageName: Survival Game Tools
+  packageVersion: 1.1
+  assetPath: Assets/Survival Tools/Materials/SkyHanger.mat
+  uploadId: 300906
