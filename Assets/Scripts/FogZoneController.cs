@@ -18,6 +18,26 @@ public class FogZoneController : MonoBehaviour
         originalFogDensity = RenderSettings.fogDensity;
     }
 
+    void OnEnable()
+    {
+        PlayerPositionSaveSystem.OnSaveLoaded += ResetFogOnLoad;
+    }
+
+    void OnDisable()
+    {
+        PlayerPositionSaveSystem.OnSaveLoaded -= ResetFogOnLoad;
+    }
+
+    private void ResetFogOnLoad()
+    {
+        if (currentTransition != null)
+        {
+            StopCoroutine(currentTransition);
+        }
+
+        RenderSettings.fogDensity = originalFogDensity;
+    }
+
     void OnTriggerEnter(Collider other)
     {
         // verific daca cel care a intrat este jucatorul
