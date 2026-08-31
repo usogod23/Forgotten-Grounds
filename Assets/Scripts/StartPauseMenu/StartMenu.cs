@@ -9,6 +9,7 @@ public sealed class StartMenu : MonoBehaviour
     [SerializeField] private Button quitButton;
     [SerializeField] private CursorLocker cursorLocker;
     [SerializeField] private Behaviour[] gameplayBehaviours;
+    [SerializeField] private GameObject[] hudElements;
 
     private void Awake()
     {
@@ -48,6 +49,8 @@ public sealed class StartMenu : MonoBehaviour
             if (b != null) b.enabled = false;
         }
 
+        SetHudVisible(false);
+
         if (EventSystem.current != null && startButton != null)
         {
             EventSystem.current.SetSelectedGameObject(startButton.gameObject);
@@ -81,6 +84,8 @@ public sealed class StartMenu : MonoBehaviour
             if (b != null) b.enabled = true;
         }
 
+        SetHudVisible(true);
+
         if (EventSystem.current != null)
         {
             EventSystem.current.SetSelectedGameObject(null);
@@ -94,5 +99,13 @@ public sealed class StartMenu : MonoBehaviour
 #else
         Application.Quit();
 #endif
+    }
+
+    private void SetHudVisible(bool visible)
+    {
+        foreach (GameObject hud in hudElements)
+        {
+            if (hud != null) hud.SetActive(visible);
+        }
     }
 }

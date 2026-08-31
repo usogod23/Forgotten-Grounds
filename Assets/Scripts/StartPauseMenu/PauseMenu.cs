@@ -11,6 +11,7 @@ public sealed class PauseMenu : MonoBehaviour
     [SerializeField] private Button quitButton;
     [SerializeField] private CursorLocker cursorLocker;
     [SerializeField] private Behaviour[] gameplayBehaviours;
+    [SerializeField] private GameObject[] hudElements;
 
     private bool isOpen;
     private float timeScaleBeforeMenu = 1f;
@@ -106,6 +107,8 @@ public sealed class PauseMenu : MonoBehaviour
                 if (b != null) b.enabled = false;
             }
 
+            SetHudVisible(false);
+
             if (EventSystem.current != null && resumeButton != null)
             {
                 EventSystem.current.SetSelectedGameObject(resumeButton.gameObject);
@@ -134,10 +137,20 @@ public sealed class PauseMenu : MonoBehaviour
                 }
             }
 
+            SetHudVisible(true);
+
             if (EventSystem.current != null)
             {
                 EventSystem.current.SetSelectedGameObject(null);
             }
+        }
+    }
+
+    private void SetHudVisible(bool visible)
+    {
+        foreach (GameObject hud in hudElements)
+        {
+            if (hud != null) hud.SetActive(visible);
         }
     }
 }
