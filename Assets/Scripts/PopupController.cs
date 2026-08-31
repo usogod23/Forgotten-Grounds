@@ -7,6 +7,11 @@ public class PopupController : MonoBehaviour
     public TMP_Text displayText;
     public float displayTime = 2f;
 
+    void Start()
+    {
+        gameObject.SetActive(false);
+    }
+
     public void Show(string message)
     {
         // 1. Activăm obiectul MAI ÎNTÂI pentru a-i permite să ruleze Coroutine-ul
