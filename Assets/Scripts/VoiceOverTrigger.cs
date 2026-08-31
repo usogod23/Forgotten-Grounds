@@ -20,6 +20,10 @@ public class VoiceOverTrigger : MonoBehaviour
     [Header("UI Reference")]
     public TMP_Text subtitleUI;
 
+    [Header("Clue Integration (Optional)")]
+    public ClueInfo clueData;
+    public ClueManager clueManager;
+
     // pentru a fi derulata o singura data interactiunea (folosit doar in cazuri necesare)
     private bool hasPlayed = false;
     private AudioSource audioSource;
@@ -63,6 +67,11 @@ public class VoiceOverTrigger : MonoBehaviour
             else
             {
                 hasPlayed = true;
+            }
+
+            if (clueData != null && clueManager != null)
+            {
+                clueManager.AddClue(clueData);
             }
 
             StartCoroutine(PlayVoiceOver());
