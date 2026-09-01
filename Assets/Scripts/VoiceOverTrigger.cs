@@ -14,7 +14,9 @@ public class VoiceOverTrigger : MonoBehaviour
     [TextArea]
     public string subtitleText;
 
-    [Header("Text Fade Duration")]
+    [Header("Subtitle Settings")]
+    public Color subtitleColor = Color.white;
+    public TMP_FontAsset subtitleFont;
     public float fadeDuration = 0.3f;
 
     [Header("UI Reference")]
@@ -23,6 +25,8 @@ public class VoiceOverTrigger : MonoBehaviour
     [Header("Clue Integration (Optional)")]
     public ClueInfo clueData;
     public ClueManager clueManager;
+
+    public PopupController popupController;
 
     // pentru a fi derulata o singura data interactiunea (folosit doar in cazuri necesare)
     private bool hasPlayed = false;
@@ -72,6 +76,12 @@ public class VoiceOverTrigger : MonoBehaviour
             if (clueData != null && clueManager != null)
             {
                 clueManager.AddClue(clueData);
+
+                // arat popup pe ecran
+                if (popupController != null)
+                {
+                    popupController.Show("Clue added");
+                }
             }
 
             StartCoroutine(PlayVoiceOver());
@@ -84,6 +94,12 @@ public class VoiceOverTrigger : MonoBehaviour
         if (subtitleUI != null)
         {
             subtitleUI.text = subtitleText;
+
+            subtitleUI.color = subtitleColor;
+            if (subtitleFont != null)
+            {
+                subtitleUI.font = subtitleFont;
+            }
             subtitleUI.alpha = 0f;
             subtitleUI.gameObject.SetActive(true);
         }
