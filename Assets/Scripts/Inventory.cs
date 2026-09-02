@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using TMPro;
 using UnityEngine;
@@ -24,6 +25,10 @@ public class Inventory : MonoBehaviour
     [SerializeField]
     [Tooltip("Keys currently carried by the player. Duplicate entries represent multiple copies.")]
     private List<KeyDefinition> keys = new List<KeyDefinition>();
+
+    [SerializeField]
+    [Tooltip("Every KeyDefinition asset in the project. Used to restore keys from save data by their stable ID.")]
+    private List<KeyDefinition> allKeyDefinitions = new List<KeyDefinition>();
 
     private static int flashlight = 1;
     private int batteries;
@@ -180,6 +185,56 @@ public class Inventory : MonoBehaviour
         }
 
         return true;
+    }
+
+    /// <summary>Returns the key IDs of all carried keys, for save data.</summary>
+    public List<string> GetCollectedKeyIds()
+    {
+        var ids = new List<string>();
+        foreach (KeyDefinition k in keys)
+        {
+            if (k != null && !string.IsNullOrWhiteSpace(k.KeyId))
+            {
+                ids.Add(k.KeyId);
+            }
+        }
+        return ids;
+    }
+
+    /// <summary>
+    /// Replaces the current key list with keys resolved from saved IDs.
+    /// Keys whose ID cannot be matched in allKeyDefinitions are silently skipped.
+    /// </summary>
+    public void RestoreKeys(List<string> savedKeyIds)
+    {
+        keys.Clear();
+        if (savedKeyIds == null) return;
+
+        foreach (string id in savedKeyIds)
+        {
+            KeyDefinition match = allKeyDefinitions.FirstOrDefault(
+                def => def != null && def.KeyId == id);
+            if (match != null)
+            {
+                keys.Add(match);
+            }
+            else
+            {
+                Debug.LogWarning($"Inventory: could not find KeyDefinition for saved key ID '{id}'.");
+            }
+        }
+    }
+
+    /// <summary>Removes all keys from the inventory.</summary>
+    public void ClearKeys()
+    {
+        keys.Clear();
+    }
+
+    /// <summary>Returns a read-only view of the currently held keys.</summary>
+    public IReadOnlyList<KeyDefinition> GetKeys()
+    {
+        return keys;
     }
 
     private int FindKeyIndex(KeyDefinition requiredKey)

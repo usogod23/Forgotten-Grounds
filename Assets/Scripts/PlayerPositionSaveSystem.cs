@@ -21,7 +21,7 @@ public sealed class PlayerPositionSaveSystem : MonoBehaviour
     [Serializable]
     private sealed class PlayerPositionData
     {
-        public int version = 4;
+        public int version = 5;
         public Vector3 position;
 
         public float flashlightBattery = 100f;
@@ -31,6 +31,7 @@ public sealed class PlayerPositionSaveSystem : MonoBehaviour
 
         public List<string> collectedClueNames = new List<string>();
         public List<string> triggeredVoiceOvers = new List<string>();
+        public List<string> collectedKeyIds = new List<string>();
     }
 
     [SerializeField] private string saveFileName = "player-position.json";
@@ -59,7 +60,8 @@ public sealed class PlayerPositionSaveSystem : MonoBehaviour
                 inventoryPills = inventory != null ? inventory.GetPill() : 0,
 
                 collectedClueNames = clueManager != null ? clueManager.GetCollectedClueNames() : new List<string>(),
-                triggeredVoiceOvers = new List<string>(this.playedVoiceTriggers)
+                triggeredVoiceOvers = new List<string>(this.playedVoiceTriggers),
+                collectedKeyIds = inventory != null ? inventory.GetCollectedKeyIds() : new List<string>()
             };
 
             File.WriteAllText(SaveFilePath, JsonUtility.ToJson(data, true));
@@ -89,7 +91,7 @@ public sealed class PlayerPositionSaveSystem : MonoBehaviour
             string json = File.ReadAllText(SaveFilePath);
             PlayerPositionData data = JsonUtility.FromJson<PlayerPositionData>(json);
 
-            if (data == null || data.version < 1 || data.version > 4 || !IsValid(data.position))
+            if (data == null || data.version < 1 || data.version > 5 || !IsValid(data.position))
             {
                 message = "The save file is invalid.";
                 Debug.LogError(message);
@@ -132,6 +134,30 @@ public sealed class PlayerPositionSaveSystem : MonoBehaviour
             {
                 inventory.SetBatteries(data.inventoryBatteries);
                 inventory.SetPills(data.inventoryPills);
+
+                // Restore keys from save data
+                if (data.collectedKeyIds != null)
+                {
+                    inventory.RestoreKeys(data.collectedKeyIds);
+                }
+                else
+                {
+                    inventory.ClearKeys();
+                }
+
+                // Hide KeyPickup objects whose key is already in the inventory,
+                // and re-show any that are not (in case the player loads an older save).
+                foreach (KeyPickup pickup in FindObjectsOfType<KeyPickup>(true))
+                {
+                    if (pickup.Key != null && inventory.HasKey(pickup.Key))
+                    {
+                        pickup.gameObject.SetActive(false);
+                    }
+                    else
+                    {
+                        pickup.gameObject.SetActive(true);
+                    }
+                }
             }
 
             if (clueManager != null && data.collectedClueNames != null)
